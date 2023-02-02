@@ -29,22 +29,21 @@ const StepThree = () => {
         </ul>
       </div>
       
-      <div class="flex min-h-screen flex-col p-10">
+      <div class="flex h-full flex-col py-10 px-5">
         <div class="z-10 w-full max-w-screen-sm">
           <div>
             <h1 class="text-xl font-bold tracking-tight text-marineBlue sm:text-2xl">Pick add-ons</h1>
             <p class="mt-3 text-medium text-coolRay">Add-ons help enhance your gaming experience</p>
         </div>
 
-        <div class="mx-auto mt-6 max-w-2xl">
+        <div class="flex mx-auto mt-6 max-w-2xl">
+          <input type="checkbox" name="service" id="service" className="text-base accent-green-500 text-white pt-12 w-10 h-10 mr-5 my-auto"/>
           <label for="service">
-          <input type="checkbox" name="service" id="service" className="text-base pt-12"/>
-
-          <div class="flex cursor-pointer items-center justify-between rounded-xl border-solid border border-coolRay bg-white px-5 py-4 shadow">
+          <div class="flex cursor-pointer items-center justify-between rounded-xl border-solid border border-coolRay bg-white px-5 py-2 shadow">
             <div class="flex items-center gap-4">
               <div class="flex flex-col items-start">
               <h2 class="font-medium text-marineBlue sm:text-xl">Online service</h2>
-              <p class="text-medium text-coolRay">For startups and new businesses</p>
+              <p class="text-sm text-coolRay">For startups and new businesses</p>
             </div>
             </div>
             <h2 class="text-xl font-semibold text-neutral-900 sm:text-2xl">$49<span class="text-base font-medium text-neutral-400">/mo</span></h2>
