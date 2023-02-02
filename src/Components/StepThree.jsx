@@ -29,24 +29,26 @@ const StepThree = () => {
         </ul>
       </div>
       
-      <div class="flex h-full flex-col py-10 px-5">
+      <div class="flex h-full flex-col py-10 px-10 w-2/3 border border-red-500">
         <div class="z-10 w-full max-w-screen-sm">
           <div>
             <h1 class="text-xl font-bold tracking-tight text-marineBlue sm:text-2xl">Pick add-ons</h1>
             <p class="mt-3 text-medium text-coolRay">Add-ons help enhance your gaming experience</p>
         </div>
 
-        <div class="flex mx-auto mt-6 max-w-2xl">
-          <input type="checkbox" name="service" id="service" className="text-base accent-green-500 text-white pt-12 w-10 h-10 mr-5 my-auto"/>
-          <label for="service">
-          <div class="flex cursor-pointer items-center justify-between rounded-xl border-solid border border-coolRay bg-white px-5 py-2 shadow">
+        <div class="flex mx-auto mt-6 border border-[#8A2BE2] bg-[#FAFAFA] select-none rounded-xl py-3 p-4">
+          <input type="checkbox" name="service" id="service" className="text-base accent-[#8A2BE2] rounded-full text-white pt-12 w-5 h-5 mr-5 my-auto"/>
+          <label for="service" class="hover:pointer">
+          <div class="flex bg-whiteborder border-green-500">
             <div class="flex items-center gap-4">
               <div class="flex flex-col items-start">
               <h2 class="font-medium text-marineBlue sm:text-xl">Online service</h2>
               <p class="text-sm text-coolRay">For startups and new businesses</p>
             </div>
             </div>
-            <h2 class="text-xl font-semibold text-neutral-900 sm:text-2xl">$49<span class="text-base font-medium text-neutral-400">/mo</span></h2>
+            <div class="ml-4 my-auto">
+              <h2 class="text-xl font-semibold text-neutral-900 sm:text-2xl">$49<span class="text-base font-medium text-neutral-400">/mo</span></h2>
+            </div>
           </div>
           </label>
         </div>
