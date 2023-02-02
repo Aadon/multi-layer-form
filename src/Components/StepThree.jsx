@@ -29,7 +29,7 @@ const StepThree = () => {
         </ul>
       </div>
       
-      <div class="flex h-full flex-col py-10 px-10 w-2/3 border border-red-500">
+      <div class="flex h-full flex-col py-10 px-10 w-2/3">
         <div class="z-10 w-full max-w-screen-sm">
           <div>
             <h1 class="text-xl font-bold tracking-tight text-marineBlue sm:text-2xl">Pick add-ons</h1>
