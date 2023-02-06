@@ -11,7 +11,7 @@ module.exports = {
       marineBlue: '#01152d',
       purplishBlue: '#07009e',
       pastelBlue: '#002ad6',
-      lightBlue: '#0d83dd',
+      lightBlue: '#e3edf4',
       strawberryRed: '#911723',
       coolRay: '#8e91a0',
       lightGray: 'hsl(229, 24%, 87%)',

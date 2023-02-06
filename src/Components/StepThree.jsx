@@ -2,8 +2,8 @@
 const StepThree = () => {
   return (
     <div className="flex justify-center items-center">
-      <div class="addOns flex gap-4 sign-in bg-white shadow-md w-screen rounded-md mt-12">
-      <div className="sidebar px-6 w-1/3">
+      <div className="addOns flex gap-4 sign-in bg-white shadow-md w-full rounded-md mt-12">
+      <div className="sidebar px-8 w-1/3">
         <ul className="steps text-white h-auto rounded-full px-2">
           <li className="">
             
@@ -29,33 +29,54 @@ const StepThree = () => {
         </ul>
       </div>
       
-      <div class="flex min-h-screen flex-col p-10">
-        <div class="z-10 w-full max-w-screen-sm">
+      <div class="flex flex-col p-10 w-4/6 mx-12 ml-0">
           <div>
             <h1 class="text-xl font-bold tracking-tight text-marineBlue sm:text-2xl">Pick add-ons</h1>
             <p class="mt-3 text-medium text-coolRay">Add-ons help enhance your gaming experience</p>
-        </div>
-
-        <div class="mx-auto mt-6 max-w-2xl">
-          <label for="service">
-          <input type="checkbox" name="service" id="service" className="text-base pt-12"/>
-
-          <div class="flex cursor-pointer items-center justify-between rounded-xl border-solid border border-coolRay bg-white px-5 py-4 shadow">
-            <div class="flex items-center gap-4">
-              <div class="flex flex-col items-start">
-              <h2 class="font-medium text-marineBlue sm:text-xl">Online service</h2>
-              <p class="text-medium text-coolRay">For startups and new businesses</p>
+        </div> 
+        <div className="flex mx-auto mt-8 mb-4 border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm">
+          <input type="checkbox" id="service" className="w-4 h-4 m-4"/>
+          <label for="service" className="">
+              <div className="flex">
+              <div className="">
+                <h2 className="pt-2 font-bold text-marineBlue ml-6">Online Service</h2>
+                <p className="text-coolRay ml-6">Access to multiplayer games</p>
+              </div>
+              <h2 className="font-semibold m-4 ml-44">$1<span className="">/mo</span></h2>
             </div>
-            </div>
-            <h2 class="text-xl font-semibold text-neutral-900 sm:text-2xl">$49<span class="text-base font-medium text-neutral-400">/mo</span></h2>
-          </div>
           </label>
         </div>
-      </div>
 
-      
-        
+        <div className="flex mx-auto border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm">
+          <input type="checkbox" id="service" className="w-4 h-4 m-4 "/>
+          <label for="storage" className="">
+              <div className="flex">
+              <div className="">
+                <h2 className="pt-2 font-bold text-marineBlue ml-6">Large storage</h2>
+              <p className="text-coolRay ml-6">Extra 1TB of cloud save</p>
+              </div>
+              <h2 className="font-semibold m-4 ml-52">$2<span className="">/mo</span></h2>
+            </div>
+          </label>
         </div>
+
+        <div className="flex mx-auto mt-4 border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm mb-8">
+          <input type="checkbox" id="service" className="w-4 h-4 m-4 "/>
+          <label for="service" className="">
+              <div className="flex">
+              <div className="">
+                <h2 className="pt-2 font-bold text-marineBlue ml-6">Customizable profile</h2>
+              <p className="text-coolRay ml-6">Custom theme on your profile</p>
+              </div>
+              <h2 className="font-semibold m-4 ml-40">$2<span className="">/mo</span></h2>
+            </div>
+          </label>
+        </div>
+        <div className="btns">
+          <button className="float-left mt-12 text-lg text-coolRay">Go Back</button>
+      <button className="float-right mt-12 font-sm text-white rounded-lg px-3 py-2 bg-marineBlue">Next Step</button>
+        </div>
+      </div>
       </div>
   </div>
   );

@@ -8,8 +8,8 @@ body {
   width: 100vw;
 }
 .sign-in {
-  height: 520px;
-  width: 900px;
+  height: 560px;
+  width: 980px;
 }
 .sidebar {
   background-image: url('./Components/images/sidebarDesktop.svg');

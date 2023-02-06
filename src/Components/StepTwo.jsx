@@ -73,7 +73,7 @@ const StepTwo = () => {
   
 </div>
       <button className="float-left mt-12 text-lg text-coolRay">Go Back</button>
-      <button className="float-right mt-12 font-lg text-white rounded-md px-2 py-1 bg-marineBlue">Next Step</button>
+      <button className="float-right mt-12 font-sm text-white rounded-lg px-3 py-2 bg-marineBlue">Next Step</button>
       </div>
       </div>
     </div>
