@@ -1,11 +1,10 @@
 import Arcade from "./images/Arcade.svg";
 import Advanced from './images/icon-advanced.svg';
 import Pro from './images/icon-pro.svg';
-import Switch from './images/switch.png';
 
 const StepTwo = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="container flex justify-center items-center">
     <div className="personal-info flex justify-around sign-in bg-white shadow-md w-11/12 rounded-md mt-12">
       <div className="sidebar px-6 w-1/3">
         <ul className="steps text-white h-auto rounded-full px-2">
