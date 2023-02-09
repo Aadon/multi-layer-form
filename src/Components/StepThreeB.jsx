@@ -1,5 +1,4 @@
-
-const StepThree = () => {
+const StepThreeB = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="addOns flex gap-4 sign-in bg-white shadow-md w-full rounded-md mt-12">
@@ -29,12 +28,12 @@ const StepThree = () => {
         </ul>
       </div>
       
-      <div class="flex flex-col p-10 w-4/6 px-12">
+      <div class="flex flex-col p-10 w-4/6 mx-12 ml-0">
           <div>
             <h1 class="text-xl font-bold tracking-tight text-marineBlue sm:text-2xl">Pick add-ons</h1>
             <p class="mt-3 text-medium text-coolRay">Add-ons help enhance your gaming experience</p>
         </div> 
-        <div className="flex mx-auto mt-8 mb2 border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm">
+        <div className="flex mx-auto mt-8 mb-4 border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm">
           <input type="checkbox" id="service" className="w-4 h-4 m-4"/>
           <label for="service" className="">
               <div className="flex">
@@ -42,25 +41,25 @@ const StepThree = () => {
                 <h2 className="pt-2 font-bold text-marineBlue ml-6">Online Service</h2>
                 <p className="text-coolRay ml-6">Access to multiplayer games</p>
               </div>
-              <h2 className="font-semibold m-4">$1<span className="">/mo</span></h2>
+              <h2 className="font-semibold ml-44 text-coolRay pt-3">+$10<span className="">/yr</span></h2>
             </div>
           </label>
         </div>
 
-        <div className="flex border border-solid border-coolRay w-full py-2 mx-auto rounded-md bg-white shadow-sm">
+        <div className="flex mx-auto border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm">
           <input type="checkbox" id="service" className="w-4 h-4 m-4 "/>
           <label for="storage" className="">
               <div className="flex">
               <div className="">
-                <h2 className="pt-2 font-bold text-marineBlue ml-6">Large storage</h2>
+                <h2 className="font-bold text-marineBlue ml-6">Large storage</h2>
               <p className="text-coolRay ml-6">Extra 1TB of cloud save</p>
               </div>
-              <h2 className="font-semibold m-4 text-end">$2<span className="">/mo</span></h2>
+              <h2 className="font-semibold ml-52 text-coolRay pt-3">+$20<span className="">/yr</span></h2>
             </div>
           </label>
         </div>
 
-        <div className="flex mt-4 border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm mb-8">
+        <div className="flex mx-auto mt-4 border border-solid border-coolRay w-full py-2 rounded-md bg-white shadow-sm mb-8">
           <input type="checkbox" id="service" className="w-4 h-4 m-4 "/>
           <label for="service" className="">
               <div className="flex">
@@ -68,13 +67,13 @@ const StepThree = () => {
                 <h2 className="pt-2 font-bold text-marineBlue ml-6">Customizable profile</h2>
               <p className="text-coolRay ml-6">Custom theme on your profile</p>
               </div>
-              <h2 className="font-semibold m-4 text-end text-">$2<span className="">/mo</span></h2>
+              <h2 className="font-semibold ml-40 text-coolRay pt-3">+$20<span className="">/yr</span></h2>
             </div>
           </label>
         </div>
         <div className="btns">
-          <button className="float-left mt-10 text-lg text-coolRay">Go Back</button>
-      <button className="float-right mt-10 font-sm text-white rounded-lg px-3 py-2 bg-marineBlue">Next Step</button>
+          <button className="float-left mt-12 text-lg text-coolRay">Go Back</button>
+      <button className="float-right mt-12 font-sm text-white rounded-lg px-3 py-2 bg-marineBlue">Next Step</button>
         </div>
       </div>
       </div>
@@ -82,4 +81,4 @@ const StepThree = () => {
   );
 }
 
-export default StepThree;
+export default StepThreeB;
