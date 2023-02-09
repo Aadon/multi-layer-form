@@ -4,26 +4,26 @@ const StepFour = () => {
       <div className="addOns flex gap-4 sign-in bg-white w-full rounded-md mt-12">
       <div className="sidebar px-8 w-1/3">
         <ul className="steps text-white h-auto rounded-full px-2">
+          
           <li className="">
-            
-            <h3 className="text-coolRay text-sm mt-8 ml-10 uppercase">step 1</h3>
-            <div className="one inline circle m-4 ml-0">1</div>
-            <a href="#"  className="text-white text-sm uppercase font-medium">your info</a>
+            <h3 className="text-coolRay text-sm mt-8 ml-11 uppercase">step 1</h3>
+            <div className="one h-7 w-7 inline-block rounded-full text-center text-white border border-solid border-lightGray">1</div>
+            <a href="#"  className="text-white text-sm uppercase font-medium mx-4">your info</a>
           </li>
-          <li className="">
-            <h3 className="text-coolRay text-sm ml-10 uppercase pt-6">step 2</h3>
-            <div className="one inline circle m-4 ml-0">2</div>
-            <a href="#" className="text-white text-sm uppercase font-medium">select your plan</a>
+          <li className="mt-8">
+            <h3 className="text-coolRay text-sm ml-11 uppercase">step 2</h3>
+            <div className="two h-7 w-7 inline-block rounded-full text-center text-white border border-solid border-lightGray">2</div>
+            <a href="#" className="text-white text-sm uppercase font-medium mx-4">select your plan</a>
           </li>
-          <li className="">
-            <h3 className="text-coolRay text-sm ml-10 uppercase pt-6">step 3</h3>
-            <div className="one inline circle m-4 ml-0">3</div>
-            <a href="#" className="text-white text-sm uppercase font-medium">add-ons</a>
+          <li className="mt-8">
+            <h3 className="text-coolRay text-sm ml-11 uppercase">step 3</h3>
+            <div className="three h-7 w-7 inline-block rounded-full text-center text-white border border-solid border-lightGray">3</div>
+            <a href="#" className="text-white text-sm uppercase font-medium mx-4">add-ons</a>
           </li>
-          <li className="">
-            <h3 className="text-coolRay text-sm ml-10 uppercase pt-6">step 4</h3>
-            <div className="one inline circle m-4 ml-0">4</div>
-            <a href="#" className="text-white text-sm uppercase font-medium ">summary</a>
+          <li className="mt-8">
+            <h3 className="text-coolRay text-sm ml-11 uppercase">step 4</h3>
+            <div className="four h-7 w-7 inline-block rounded-full text-center text-white border border-solid border-lightGray">4</div>
+            <a href="#" className="text-white text-sm uppercase font-medium mx-4">summary</a>
           </li>
         </ul>
       </div>

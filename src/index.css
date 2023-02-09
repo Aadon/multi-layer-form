@@ -8,8 +8,8 @@ body {
   width: 100vw;
 }
 .sign-in {
-  height: 560px;
-  width: 980px;
+  height: 520px;
+  width: 860px;
 }
 .sidebar {
   background-image: url('./Components/images/sidebarDesktop.svg');
@@ -18,19 +18,14 @@ body {
   margin: 8px;
   border-radius: 12px;
 }
-.circle {
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  padding: 6px;
-  border: 1px solid lightgray;
-  color: #fff;
-  text-align: center;
+.navbar {
+  background-image: url('./Components/images/bg-sidebar-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: cover;
 }
+
 input:checked~.dot {
   transform: translateX(100%);
   background-color: #fff;
 }
-.checkbox {
-  padding: 8px;
-}
+
