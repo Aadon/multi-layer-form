@@ -45,9 +45,9 @@ const StepFour = () => {
       </div>
       </div>
     </div>
-    <div className="bg-white max-w-[400px]">
-      <button className="float-left text-lg text-coolRay">Go Back</button>
-      <button className="float-right font-sm text-white rounded-lg px-3 py-2 bg-pastelBlue">Confirm</button>
+    <div className="bg-white max-w-[400px] py-5 mt-32 pb-14">
+      <button className="float-left text-lg text-coolRay mx-6">Go Back</button>
+      <button className="float-right font-sm text-white rounded-lg px-3 py-2 bg-pastelBlue mx-6">Confirm</button>
     </div>
 
       <div className="addOns flex gap-4 sign-in bg-white w-full rounded-md mt-12 sm:hidden md:block">
