@@ -10,14 +10,14 @@ import StepFive from "./Components/StepFive.jsx";
 function App() {
   return (
     <div className="">
-      < StepOne />
-      < StepTwo /> 
-      < StepTwoB />
-      < StepThree />
-      < StepThreeB />
+      {/* < StepOne /> */}
+      {/* < StepTwo />  */}
+      {/* < StepTwoB /> */}
+      {/* < StepThree /> */}
+      {/* < StepThreeB /> */}
       < StepFour />
-      < StepFourB />
-      < StepFive /> 
+      {/* < StepFourB />
+      < StepFive />  */}
     </div>
   );
 }

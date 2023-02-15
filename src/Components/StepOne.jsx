@@ -82,7 +82,7 @@ const StepOne = () => {
           <label for="telephone" className="block mb-2 text-sm font-medium text-marineBlue dark:text-white">Phone Number</label>
           <input type="number" id="telephone" placeholder="e.g +1 234 567 890" className="border border-lightGray text-gray-700 text-sm rounded-md focus:lightBlue focus:border-lightGray block w-full p-2 required"/>
         </div>
-        <button className="float-right mt-2 font-sm text-white rounded-lg px-3 py-2 bg-marineBlue">Next Step</button>
+        <button className="float-right mt-8 font-sm text-white rounded-lg px-3 py-2 bg-marineBlue">Next Step</button>
       </form>
       </div>
     </div>

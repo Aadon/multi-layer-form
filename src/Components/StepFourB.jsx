@@ -28,43 +28,40 @@ const StepFourB = () => {
         </ul>
       </div>
     
-    <div className="finishing w-3/6">
-      <div className="header py-8 pt-4">
+    <div className="finishing w-4/6 p-6 mt-0 mx-6">
+      <div className="header my-6 space-y-2">
         <h1 className="text-marineBlue font-bold text-xl mt-6">Finishing Up</h1>
         <p className="text-coolRay">Double-check everything looks Ok before confirming.</p>
       </div>
       
       <div className=" rounded-lg">
-      <div className="flex px-3 py-3 rounded-sm w-98 bg-lightBlue cursor-pointer hover:border-b hover:border-solid hover:border-lightGray hover:p-5">
+      <div className="flex px-3 py-2 rounded-sm w-98 bg-lightBlue cursor-pointer hover:font-semibold hover:border-b hover:border-solid hover:border-lightGray hover:py-4">
         <div className="">
-          <h1 className="text-marineBlue px-2 hover:font-semibold ">Arcade (Monthly)</h1>
+          <h1 className="text-marineBlue px-2 ">Arcade (Monthly)</h1>
           <a href="#" className="text-coolRay px-2 underline hidden hover:block">change</a>
         </div>
-        <h2 className="ml-64 pt-2 text-marineBlue hover:font-semibold">$9 <span className="">/mo</span></h2>
+        <h2 className="pt-2 ml-60 text-marineBlue hover:font-semibold">$9 <span>/mo</span></h2>
       </div>
 
-      <div className="hero flex px-3 py-3 rounded-sm w-98 bg-lightBlue cursor-pointer hover:font-semibold hover:border-b hover:border-solid hover:border-lightGray hover:p-5">
+      <div className="hero flex px-3 py-2 rounded-sm w-98 bg-lightBlue cursor-pointer hover:font-semibold hover:border-b hover:border-solid hover:border-lightGray hover:py-4 hover:ml-0">
         <div className="">
-          <h1 className="text-marineBlue px-2">Arcade (Monthly)</h1>
+          <h1 className="text-marineBlue px-2">Advanced (Monthly)</h1>
           <a href="#" className="text-coolRay px-2 underline hidden ">change</a>
         </div>
-        <h2 className="ml-64 pt-2 text-marineBlue hover:font-semibold">$1 <span className="">/mo</span></h2>
+        <h2 className="ml-56 pt-2 text-marineBlue hover:font-semibold">$1 <span className="">/mo</span></h2>
       </div>
 
-      <div className="hero flex px-3 py-3 rounded-sm w-98 bg-lightBlue cursor-pointer mb-6 hover:border-b hover:border-solid hover:border-lightGray hover:p-5">
+      <div className="hero flex px-3 py-3 rounded-sm w-98 bg-lightBlue cursor-pointer mb-6 hover:font-semibold hover:border-b hover:border-solid hover:border-lightGray hover:py-4 hover:ml-0">
         <div className="">
-          <h1 className="text-marineBlue px-2 hover:font-semibold ">Arcade (Monthly)</h1>
+          <h1 className="text-marineBlue px-2">Pro (Monthly)</h1>
           <a href="#" className="text-coolRay px-2 underline hidden hover:block">change</a>
         </div>
-        <h2 className="ml-64 pt-2 text-marineBlue hover:font-semibold">$2 <span className="">/mo</span></h2>
+        <h2 className="ml-64 pt-2 text-marineBlue hover:font-semibold">$2 <span className="text-right">/mo</span></h2>
       </div>
-      <div className="flex mb-28">
+      <div className="flex mb-32">
         <h1 className="text-coolRay">Total (per month)</h1>
         <h2 className="ml-64 font-bold text-lg text-alabaster tracking-tighter">+$12 <span>/mo</span></h2>
       </div>
-      </div>
-      <div className="confirmation">
-
       </div>
       <button className="float-left text-lg text-coolRay">Go Back</button>
       <button className="float-right font-sm text-white rounded-lg px-3 py-2 bg-pastelBlue">Confirm</button>

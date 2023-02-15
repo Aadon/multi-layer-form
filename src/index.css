@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 body {
-  background-color: lightblue;
+  background-color: lightBlue;
   height: '100vh';
   width: 100vw;
 }
 .sign-in {
-  height: 520px;
+  height: 540px;
   width: 860px;
 }
 .sidebar {
@@ -22,6 +22,10 @@ body {
   background-image: url('./Components/images/bg-sidebar-mobile.svg');
   background-repeat: no-repeat;
   background-position: cover;
+  background-size: cover;
+  min-width: 375px;
+  max-width: 400px;
+  
 }
 
 input:checked~.dot {
